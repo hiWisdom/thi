@@ -1,0 +1,296 @@
+ .c_modal {
+  border: none;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 4s;
+  -moz-animation-name: fadeIn;
+  -moz-animation-duration: 4s;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+ }
+
+ .c_modal_container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  background: whitesmoke;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 4s;
+  -moz-animation-name: slideIn;
+  -moz-animation-duration: 4s;
+  animation-name: slideIn;
+  animation-duration: 4s;
+ }
+
+ .c_modal_content {
+  border:  none;
+  height: 13.5cm;
+  width: calc(950px - 5cm);
+ /* background-image: url(" https://i.ibb.co/WDMnQ4P/Whats-App-Image-2023-09-03-at-2-41-10-PM.jpg "); */
+ /*background-image: url("https://i.ibb.co/d4cV8rv/Screenshot-20230915-180011-Whats-App.jpg");
+  */
+ /*background-image: url("https://i.ibb.co/nCGY7ZZ/IMG-20231001-WA0000.jpg");*/
+  
+ /* background-image: url("https://i.ibb.co/RDhrWXs/Screenshot-20231011-191022-Whats-App.jpg");*/
+  
+  
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 70%;
+  transition: width 2s, height 2s, transform 2s;
+  
+ }
+ 
+ .c_modal_container .c_modal_object {
+  border: 2px solid none;   
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ 
+/* The Close Button */
+.c_close_modal {
+  border: 2px solid none;
+  border-radius: 50%;
+  color: blue; 
+  background: grey;
+  font-size: 90px;
+  position: relative;
+  float: right;
+  transition: all .2s ease-in-out;
+  display: none;
+}
+
+.c_close_modal:hover,
+.c_close_modal:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#contactpage {
+    font-size: medium;
+    cursor: pointer;
+}
+
+#contactpage:hover {
+    font-size: small;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+#closeAdsOne {
+    border: 2px solid none;
+    background: grey;
+    border-radius: 100%;
+    /*height: 10px;*/
+}
+
+#closeAdsOne span {
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+}
+
+
+@-webkit-keyframes slideIn {
+    from {
+        bottom: -800px;
+        opacity: 0;
+    }
+    
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideIn {
+    from {
+        top: -800px;
+        opacity: 0;
+    }
+    
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#c_modal_1 {
+    border: 2px solid none;
+    height: 40vh;
+    width: 25%;
+    background: transparent !important;
+    display: block;
+    margin-top: 60vh;
+    
+}
+
+#close_ads_one {
+    background: blue;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+.vid-ad{
+    position:absolute;
+    right:0;
+    bottom:0;
+    background:center no-repeat;
+    /*background:contain no-repeat;*/
+    z-index:-1;
+    width:100%;
+    height:40vh;
+    border:2px solid none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 850px) {
+    
+     /* .c_modal_container {
+      margin-top: 10%;    
+      margin-left: 1%;
+     } */
+
+ 
+     .c_modal_content {
+        width: calc(850px - 12cm);
+        height:75vh;
+        background-size: 100%;
+     }
+     
+     /* .c_modal_container .c_modal_object {  
+         margin-right: 4.5%;
+     } */
+  
+    /* The Close Button */
+    .c_close_modal {
+      top: -7cm;
+      font-size: 90px;
+    }
+
+    #c_modal_1 {
+        width: 100%;
+        
+    }
+    
+}
+
+
+
+
+
+@media(max-width: 350px) {
+    
+ 
+     .c_modal_content {
+        width: calc(750px - 12cm);
+        height: 55vh;
+     }
+  
+    /* The Close Button */
+    .c_close_modal {
+      top: -5cm;
+    }
+
+    
+}
+
+
+
+@media(max-width: 250px) {
+    
+ 
+     .c_modal_content {
+        width: calc(650px - 12cm);
+        height: 55vh;
+     }
+  
+    /* The Close Button */
+    .c_close_modal {
+      top: -4cm;
+    }
+    
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+
+
+ .c_about_page_design {
+     border: 2px solid none;
+     display: flex; 
+ }
+ 
+ 
+  .c_about_page_design ul {
+     border: 2px solid none;
+     display: flex; 
+     flex-wrap: wrap;
+     margin: auto;
+     width: 80%;
+ }
+ 
+ 
+ @media(max-width: 800px) {
+     
+    .c_about_page_design ul {
+         width: 100%;
+     }
+ }

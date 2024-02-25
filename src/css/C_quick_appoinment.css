@@ -1,0 +1,74 @@
+
+
+
+.c_appoinment_container {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.c_quick_appoinment_input {
+    border: 2px solid white;
+    width: 90%;
+    font-size: large;
+    background: #4caf50;
+    border-radius: 4px;
+    padding: 4px 20px;
+    margin: 8px 0;
+}
+
+.c_quick_appoinment_input:hover {
+    background: #45a049;
+}
+
+.c_quick_appoinment_dropdown_container {
+    display: flex;
+    position: relative;
+}
+
+.c_quick_appoinment_dropdown {
+    border: 2px solid white;
+    width: 100%;
+    font-size: large;
+    background: #4caf50;
+    border-radius: 4px;
+    padding: 4px 20px;
+    margin: 8px 0;
+    appearance: none;
+    cursor: pointer;
+}
+
+.c_quick_appoinment_dropdown_container .c_quick_appoinment_dropdown_icon_container{
+    border: 2px solid none;
+    display: flex;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.c_quick_appoinment_dropdown_icon_container i{
+    color: white;
+    font-size: xx-large;
+}
+
+#c_quick_appoinment_btn {
+    border: 2px solid white;
+    width: 50%;
+    font-size: x-large;
+    background: #4caf50;
+    border-radius: 4px;
+    padding: 4px 20px;
+    margin: 8px 0;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 850px) {
+    
+}

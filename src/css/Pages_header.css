@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+header {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: calc(5rem + 1rem);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+    transition-property: height, background;
+      
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7VPr01jdxWTV9fK-y3gD10Nomz4JT3_xLQ&usqp=CAU); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.home {
+    display: none;
+}
+
+main {
+    margin-top: 10% !important; 
+}
+
+@media(max-width: 800px) {
+    
+    
+    
+    header {
+        height: calc(3rem + 1rem);
+    }
+
+    .nav-bar {
+        border: none;
+        height: fit-content;
+        margin-top: -50px;
+    }
+}

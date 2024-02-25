@@ -1,0 +1,171 @@
+
+
+.subscribe-input-container 
+{
+    border: 2px solid none;
+    width: 95%;
+    position: relative;
+
+}
+
+/*.subscribe-label*/
+/*{*/
+/*    border: transparent;*/
+/*    position: absolute;*/
+/*    left: 10px;*/
+/*    top: 14px;*/
+/*    transition: all 0.2s;*/
+/*    padding: 0 2px;*/
+/*    z-index: 1;*/
+/*    color:black*/
+    
+/*}*/
+
+/*.subscribe-text-input */
+/*{*/
+/*    border: 2px solid #382f26;*/
+/*    padding: 0.8rem;*/
+/*    width: 95%;*/
+/*    height: 30px;*/
+/*    background: transparent;*/
+/*    border-radius: 5px;*/
+/*    font-size: 18px;*/
+/*    outline: none;*/
+/*    transition: all .3s;*/
+/*    color:black;*/
+/*}*/
+
+/*.subscribe-label::before*/
+/*{*/
+/*    content: "";*/
+/*    height: 5px;*/
+/*    background-color: transparent;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 10px;*/
+/*    width: 100%;*/
+/*    z-index: -1;*/
+/*}*/
+
+
+/*.subscribe-text-input:focus */
+/*{*/
+/*    border: 2px solid;*/
+/*}*/
+
+/*.subscribe-text-input:focus+.subscribe-label, .filled*/
+/*{*/
+/*    top: -19.5px;*/
+/*    color: black;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.subscribe-label-input*/
+/*{*/
+/*    top: -19.5px;*/
+/*    color: #fd7f0a;*/
+/*    font-size: 18px;*/
+/*}*/
+
+
+
+.subscribe-input-container label
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .2s;
+    padding: 0 2px;
+    z-index: 1;
+    color:black
+    
+}
+
+
+.subscribe-input-container input 
+{
+    border: 2px solid #382f26;
+    padding: 0.8rem;
+    width: 95%;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all .3s;
+    color:black;
+    
+    
+}
+
+.subscribe-input-container input:focus~label,
+.subscribe-input-container input:valid~label {
+    top: 0;
+    background: whitesmoke;
+}
+
+
+
+
+
+.subscribe-text-input::placeholder
+{
+    font-size: 18px;
+    opacity: 1;
+    transition: all .3s;
+}
+
+
+.subscribe-text-input:focus::placeholder
+{
+    opacity: 1;
+    animation-delay: 0.2s;
+}
+
+
+
+
+
+
+
+@media(max-width: 850px) {
+    
+    /*.subscribe-label*/
+    /*{*/
+    /*    top: 30px;*/
+        
+    /*}*/
+
+
+    /*.subscribe-text-input:focus+.subscribe-label, .filled*/
+    /*{*/
+    /*    top: -8.5px;*/
+    /*    color: black;*/
+    /*    font-size: 18px;*/
+    /*}*/
+    
+    .subscribe-input-container input:focus~label,
+    .subscribe-input-container input:valid~label {
+    top: 20px;
+    left: 28px;
+    background: #c2e5f9;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

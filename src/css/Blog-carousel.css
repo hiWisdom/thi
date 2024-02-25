@@ -1,0 +1,124 @@
+.wrapper {
+  border: 12px solid transparent;
+  height: 500px;
+  width: 1300px;
+  padding-bottom: 1.5%;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: azure;
+  filter: drop-shadow(2px 5px 10px azure)
+}
+
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease;
+}
+
+.card {
+  border: 2px solid none;
+  border-radius: 2.5%;
+  background: white;
+  width: fit-content;
+  height: 500px;
+  margin-right: 5.5rem;
+  display: inline-block;
+  padding: 1px;
+  box-shadow: 2.5px 5px white;
+}
+
+
+.c_articles_row {
+  border:2px solid none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2.5%;
+}
+
+.c_articles_column {
+  border: 0.1px solid none;
+  background-color:white;
+  width: 333.33px;
+  height: fit-content;
+  /* box-shadow: 10px 10px 10px 10px black; */
+  filter: drop-shadow(2px 22px 2px black);
+  display: none;
+}
+
+
+
+.c_articles_column_body {
+  border: 2px solid none;
+  padding: 6%;
+}
+
+.c_articles_column_header img{
+  border: 3px solid none;
+  height: 7.5cm;
+} 
+
+#blog-post-image {
+  background-position: center !important;
+}
+
+.c_articles_column_body_title {
+  border: 2px solid none;
+  text-align: left;
+  padding: 2.5%;
+  margin-top: -0.9cm;
+  word-spacing: 0.1cm;
+  letter-spacing: 0.01em;
+}
+
+.c_articles_column_body_title h2 {
+    color: black;
+    font-size: 20px;
+}
+
+.c_articles_column_body_content {
+  border: 2px solid none;
+  padding: 2.5%;
+  margin-top: -0.9cm;
+  word-spacing: 0.1cm;
+  letter-spacing: 0.01em;
+  font-size: 11px;
+}
+
+.c_articles_column_body_content .c_articles_column_body_content_paragraph {
+  font-size: 12px;
+  color: black;
+  line-height: 1.3em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /*display the lines you want to show*/
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
+
+@media(max-width: 600px) {
+
+  .wrapper {
+    height: 400px;
+    width: 380px;
+  }
+
+  .carousel {
+    width: 400px;
+  }
+
+  .card {
+    min-width: 300px;
+    height: 400px;
+  }
+  
+
+}

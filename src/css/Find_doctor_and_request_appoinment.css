@@ -1,0 +1,252 @@
+
+
+.find_doctor_Request_appoinment {
+    border: 12px solid none;
+    color: #0b76af;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 20px;
+    
+}
+
+
+
+
+.c_appoinment_bmi_container {
+    border: 12px solid none;
+    width: 100%;
+}
+
+
+.c_general_two {
+    border: 3px solid none;
+    width: 100%;
+}
+
+.c_general_container{
+    border: 3px solid none;
+    width: 100%;
+}
+
+.c_content {
+    border: 3px solid none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+
+
+.find_your_doctor {
+    overflow: scroll; 
+    width: 60%; 
+    border:2px solid #7b9fc1 !important;
+}
+
+
+.find_your_doctor_container {
+     display: flex; 
+     border: 2px solid none;
+     justify-content: space-between;
+}
+
+
+.find_your_doctor_department {
+     display: flex; 
+     border: 1px solid black;
+     width: 60%;
+}
+
+.find_your_doctor_department_text {
+     border: 2px solid none;
+     height: fit-content;
+     font-size: small;
+     justify-content: center;
+     margin: auto;
+     padding: 0;
+}
+
+.find_your_doctor_department_list {
+     border: 2px solid none;
+     height: 100%;
+     width: 70%;
+}
+
+.find_your_doctor_department_list select{
+     border: 2px solid none;
+     height: 100%;
+     width: 100%;
+     font-size: medium;
+     cursor: pointer;
+}
+
+.find_your_doctor_name input{
+     border: 2px solid grey;
+     border-radius: 0.2rem;
+     height: 90%;
+     font-size: medium;
+     cursor: pointer;
+}
+
+.find_your_doctor_search button{
+     border: 2px solid #65bd77;
+     height: 100%;
+     cursor: pointer;
+     background-color: #65bd77;
+     color: white;
+}
+
+.find_your_doctor_search button i{
+     color: white;
+}
+
+
+
+
+#myInput {
+  background-image: url('../pictures/testing picture/Dr.-Olutoyin-Asaolu-e1598141460833.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 2px solid #ddd; /* Add a grey border */
+  font-size: small; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 8px; /* Add padding */
+  border: 2px solid #dddddd;
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+#myTable tr.header {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #7b9fc1 !important;
+}
+
+
+#myTable tr.header th {
+  color: white !important;
+  font-weight: bolder;
+}
+
+
+.find_your_doctor_avalibility {
+     border: 2px solid none; 
+     display: flex; 
+     justify-content: space-between;
+}
+
+.find_doctor_make_appoinment button{
+    background: #2e3e4e; 
+    box-shadow: 1px 1px 1.5px 2.3px #2e3e4e;
+    color: white; 
+    padding: 0.7% 1.5%; 
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: all .2s linear;
+    font-size: 10.5px;
+}
+
+
+.find_doctor_make_appoinment button:hover {
+    background: gold; 
+    color: #2e3e4e; 
+}
+
+.find_doctor_appoinment_time {
+    border: 1px solid none;
+    background: #5bc0de; 
+    color: white; 
+    padding: 0.3% 3.5%;
+    border-radius: 0.5rem;
+    height: fit-content;
+}
+
+
+.find_your_doctor_avalibility_text {
+    border: 2px solid none;
+    display: flex;
+}
+
+.find_your_doctor_avalibility_text i{
+    border: 2px solid none;
+    height: fit-content;
+    margin: auto;
+}
+
+.find_your_doctor_avalibility_text p{
+    border: 2px solid none;
+}
+
+
+
+/* media query here */
+
+@media(max-width: 800px) {
+    
+    
+    .find_doctor_Request_appoinment {
+        font-size: medium;
+    }
+    
+    .find_your_doctor {
+        overflow: scroll; 
+        width: 100%; 
+        border: 2px solid blue;
+    }
+    
+    .find_your_doctor_container {
+        flex-direction: column;
+    }
+    
+    .find_your_doctor_department {
+         width: 100%;
+         border: transparent;
+    }
+
+
+
+    .find_your_doctor_name input{
+        width: 100%;
+    }
+    
+    .find_your_doctor_search button{
+        width: 100%;
+    }
+    
+    .find_your_doctor_avalibility {
+        flex-direction: column;
+    }
+
+
+    .find_your_doctor_avalibility div {
+        margin-bottom: 4.8%;
+        border: 2px solid none;
+    }
+    
+    .find_your_doctor_avalibility_text {
+        border: 2px solid none;
+    }
+
+
+
+
+}

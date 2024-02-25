@@ -1,0 +1,379 @@
+
+
+
+
+.c_contact_image {
+    border: 2px solid none;
+    background-image: url("../pictures/testing picture/background_images/Call-Center-Management-1.png");
+    width: 100%;
+    height: 50vh; 
+}
+
+.c_contact_div {
+    border: 2px solid none;
+}
+
+.c_contact_container {
+    border: 2px solid none;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c_content_title_header_container {
+    border: 2px solid none;
+}
+
+.c_content_title {
+    border: 2px solid none;
+    float: left;
+    
+}
+
+.c_contact {
+    border: 2px solid none;
+    color: #0b76af;
+    font-size: 80px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /*font-style: oblique;*/
+}
+
+.c_contact_container .c_contact_two {
+    border: 2px solid none;
+    width: 80%;
+}
+
+.c_contact_container .c_contact_two p {
+    border: 2px solid none;
+    color: black;
+    font-size: 20px; 
+    font-weight: 100;
+}
+
+.c_contact_details_container {
+    height:  fit-content;
+    border: 2px solid none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    z-index: -1;
+}
+
+.c_contact_details {
+    border: 2px solid none;
+    margin-bottom: 5%;
+}
+
+.c_contact_details_one {
+    border: 2px solid none;
+    padding: 1%;
+    width: 100%;
+}
+
+.c_contact_details_two {
+    border: 2px solid none;
+    width: fit-content;
+    background-color: white;
+    filter: drop-shadow(.15em .15em .3em);
+    padding: 1%;
+    z-index: -1;
+    margin: auto;
+}
+
+.c_contact_details_three {
+    border: 2px solid none;
+    padding: 1%;
+    display:flex; 
+    justify-content: space-between;
+}
+
+.c_contact_details_three div {
+    width: 48%;
+ }
+
+
+.c_contact_us_form {
+    border: 2px solid none;
+    background-color: white;
+    filter: drop-shadow(.15em .15em .3em);
+    z-index: -1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#c_contact_form {
+    display: table;
+    border: 2px solid none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c_form_item_row {
+    display: table-row;
+    border: 2px solid none;
+}
+
+.c_form_item_row label {
+    display: table-cell;
+    border: 2px solid none;
+    width: 155.5px;
+    font-size: large;
+    text-align: left;
+    height: fit-content;
+}
+
+.c_form_item_row #c_contact_form_message {
+    vertical-align: top;
+}
+
+.c_form_item_row .c_contact_form_details[type="text"], .c_form_item_row .c_contact_form_details[type="tel"], .c_form_item_row .c_contact_form_details[type="email"] {
+    border-radius: 2px;
+    display: table-cell;
+    border: 2px solid none;
+    width: 10cm;
+    height: 1.3cm; 
+    font-size: large;
+    margin-left: -2cm;
+}
+
+.c_form_item_row textarea {
+    border-radius: 2px;
+    border: 2px solid none;
+    width: 10cm;
+    height: 2.8cm; 
+    font-size: large;
+}
+
+
+
+.c_general_submit_button_container {
+    border: 2px solid none;
+    width: 290%;
+    margin-top: 5.5%;
+}
+
+.c_general_submit_button_container_button {
+    border: 2px solid none;
+    width:90%;
+    margin: auto;
+}
+
+.c_general_submit_button_container_button input {
+    width: 100%;
+    background-color: #0b76af;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    border-radius: 0.998rem;
+}
+
+
+
+.c_form_title h2 {
+    border: 2px solid none;
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(.1em .1em .1em);
+    z-index: -1;
+    margin-bottom: 3%;
+    font-style: oblique;
+    font-size: 35px;
+}
+
+
+.c_contact_details_two {
+    border: 2px solid none;
+    height: fit-content;
+}
+
+.c_contact_details_two_details {
+    border: 2px solid none;
+    display: flex;
+    font-size: medium;
+    justify-content: space-evenly;
+}
+
+.c_contact_details_two_details p{
+    text-align: center;
+    border: 2px solid none;
+    color: black;
+}
+
+.c_contact_details_two .c_contact_details_two_details_one p {
+    border: 2px solid none;
+    font-size: 20px;
+    color: black;
+    /* filter: drop-shadow(.1em .1em .1em); */
+}
+
+.c_contact_details_two .c_contact_details_two_details_one p a, .c_contact_details_two .c_contact_details_two_details_two p a, .c_contact_details_two .c_contact_details_two_details_three p a, .c_contact_details_two .c_contact_details_two_details_four p a, .c_contact_details_two .c_contact_details_two_details_five p a{
+    color: black;
+}
+
+.c_our_team_container {
+    border: 2px solid none;
+    height: fit-content;
+    z-index: -1;
+}
+
+.c_our_team_title_container {
+    border: 2px solid none;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c_our_team_title {
+    border: 2px solid none;
+    color: #0b76af;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-style: oblique;
+}
+
+.c_our_team_details_container {
+    border: 2px solid none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.c_our_team_details {
+    border: 2px solid none;
+    width: fit-content;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 0.5rem;
+    filter: drop-shadow(.1rem .1rem .1rem);
+    padding: 1%;
+}
+
+.c_our_team_details_img img {
+    border: 2px solid none;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.c_our_team_details_names {
+    border: 2px solid none;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.c_our_team_details_social_networks {
+    border: 2px solid none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c_our_team_details_social_networks p {
+    border: 2px solid none;
+    font-size: x-large;
+}
+
+
+
+
+/*media queries*/
+
+@media(max-width:  850px) {
+
+    
+    .c_contact {
+        border: 2px solid none;
+        color: #0b76af;
+        font-size: 35px;
+        text-transform: capitalize;
+        font-weight: bolder;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        /*font-style: oblique;*/
+    }
+
+    .c_contact_details {
+        margin-bottom: 15%;
+    }
+
+    .c_form_item_row .c_contact_form_details[type="text"], .c_form_item_row .c_contact_form_details[type="tel"], .c_form_item_row .c_contact_form_details[type="email"] {
+        width: 7cm;
+    }
+    
+    .c_form_item_row textarea {
+        width: 100%;
+    }
+
+    /* .c_form_item_row input[type="submit"] {
+       width: fit-content;
+       background-color: #0b76af;
+    } */
+
+    .c_general_submit_button_container {
+        border: 2px solid none;
+        width: 200%;
+        margin-top: 5.5%;
+    }
+    
+    .c_general_submit_button_container_button {
+         border: 2px solid #226d;
+        width:90%;
+        margin: auto; 
+    }
+    
+    .c_general_submit_button_container_button input {
+        /* width: 100%;
+        background-color: #0b76af;
+        cursor: pointer;
+        color: white;
+        font-weight: 800;
+        border-radius: 0.998rem; */
+    }
+
+    .c_our_team_container {
+        border: 2px solid none;
+    }
+
+    /* .c_our_team_details_container {
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    } */
+
+    .c_our_team_details_container {
+        border: 2px solid none;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .c_our_team_details {
+        border: 2px solid none;
+        width: auto;
+    }
+
+    .c_our_team_details_img img {
+        border: 2px solid none;
+        width: 100%;
+        height: 5cm;
+    }
+
+    .c_contact_details_three {
+        border: 2px solid none;
+        padding: 1%;
+        display:flex; 
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .c_contact_details_three div {
+       width: 100%;
+    }
+
+}

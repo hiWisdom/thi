@@ -1,0 +1,148 @@
+
+
+
+
+.bmi_form {
+	background-color: #fff;
+	height: 240px;
+	width: 450px;
+	border-radius: 20px;
+	margin: 20px auto 20px auto;
+	display: block;
+	border: solid 1px #289df6;
+	box-shadow: 0 0 40px 0 #ddd;
+}
+
+.bmi_form:hover {
+	box-shadow: 0 0 60px 0 #ccc;
+	transition: .4s;
+	transform: scale(1.02);
+}
+
+.bmi_row_one {
+	padding: 20px;
+}
+
+.bmi_row_two {
+	padding: 20px;
+}
+
+.bmi_text_input {
+	width: 60px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #dbeffe;
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.bmi_text_input:last-child {
+	margin-bottom: 35px;
+}
+
+.bmi_text_input:hover {
+	background-color: #cbe7fd;
+}
+
+.bmi_button_container {
+	display: flex; 
+	border: 2px solid none;
+}
+
+.bmi_button {
+	border: none;
+	border-radius: 10px;
+	height: 40px;
+	width: 140px;
+	background-color: #289df6;
+	color: #fff;
+	margin: auto;
+	display: block;
+	outline: none;
+	cursor: pointer;
+}
+
+.bmi_button:hover {
+	background-color: #0a8ef2;
+}
+
+.bmi_text {
+	display: inline-block;
+}
+
+.bmi_row_one {
+	padding: 30px 20px 15px 20px;
+}
+
+.bmi_row_one {
+	padding: 15px 20px 30px 20px;
+}
+
+.bmi_container {
+	display: inline-block;
+	position: relative;
+	padding-left: 30px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.bmi_checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #dbeffe;
+	border-radius: 50%
+}
+
+.bmi_container:hover input ~ .bmi_checkmark {
+	background-color:#cbe7fd;
+}
+
+.bmi_container:hover checked ~ .bmi_checkmark {
+	background-color:#289df6;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	color: #289df6;
+	padding-top: 15px;
+	display: block;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	padding: 15px;
+}
+
+h3 b {
+	font-size: 32px;
+	font-weight: 300;
+	color: #289df6;
+}
+
+
+
+ @media(max-width: 850px) {
+
+	.c_bmi_container {
+	    border: none;
+		margin-bottom: 7%;
+		
+	}
+} 
+
+

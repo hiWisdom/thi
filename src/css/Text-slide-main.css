@@ -1,0 +1,87 @@
+.writing-animation-container {
+    position: relative;
+}
+
+
+
+/*Web Writing Animation two*/
+.second_text:before { 
+    content: ""; 
+    position: absolute; 
+    border-left: 5px solid #9600ff; 
+    background: white;
+    width: 100%; 
+    height: 100%; 
+    left: 0; 
+    top: 0; 
+    animation: writingAnimate 4s steps(10) infinite;
+}
+
+
+@keyframes writingAnimate {
+	40%, 60% {
+		left: 100%;
+	}
+	100% {
+		left: 10%;
+	}
+}
+
+
+.writing_animation_container {
+    border: 2px solid none;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+
+
+.writing-animation-container {
+    border: 2px solid none;
+    width: fit-content;
+    background: white;
+}
+
+.writing-animation-text {
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 1px 3px black;
+    letter-spacing: 0.1cm;
+    word-spacing: 0.1cm;
+    color: #9600ff;
+} 
+
+.first_text {
+    font-size: 30px;
+}
+
+
+
+
+/*=================media queries================*/
+
+@media screen and (max-width: 785px) {
+
+    .writing_animation_container {
+        width: 98%;
+    }
+
+
+    .second_text {
+        font-size: large !important;
+    }
+
+    .writing-animation-text {
+        font-weight: Bold;
+        font-family: sans-serif;
+        letter-spacing: 0cm;
+        word-spacing: 0cm;
+        color: #9600ff;
+        word-wrap: break-word;
+    } 
+
+
+}

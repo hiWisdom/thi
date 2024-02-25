@@ -1,0 +1,466 @@
+/*import external fonts google family poppins style*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+/*all items style*/
+*{
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+/*container multiskill-level-form style*/
+.multiskill-level-form{
+    /*border: 2px solid #1f2061; */
+	border: 2px solid white; 
+	background: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10%;
+    padding-left: 1%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/*stylesheet under construction, please be careful...*/
+
+
+/*container form-outer style*/
+ .form-outer{
+/*    border-left: 2px solid #1f2061;*/
+	border-left: 2px solid white; 
+    width: 100%;
+    overflow: hidden;
+    padding: 1%;
+  }
+  
+/*container form-outer form style*/
+  .form-outer form{
+    border: 2px solid gold;
+    display: flex;
+    width: 505%;
+	background: white;
+	box-shadow: 2px 2px 5px rgba(10%, 1%, 0%);
+	padding: 1.5%;
+  }
+
+
+    
+/*form-outer form .page style*/
+  .form-outer form .page{
+    transition: margin-left 0.3s ease-in-out;
+    width: 25%;
+  }
+  
+  
+
+
+
+  
+/*form-outer form page and title style*/
+  .form-outer form .page .title{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  
+/*form-outer form page and field style*/
+  .form-outer .page .field{
+    width: 90%;
+    height: 45px;
+    margin: 45px 0;
+    position: relative;
+    border: 2px solid none;
+  }
+
+  
+/*form-outer form page and btns-field style*/
+  .form-outer form .page .btns-field{
+    width: fit-content;
+    display: flex;
+    position: relative;
+    border: 2px solid none;
+	cursor: pointer;
+	float: right;
+	margin-right: 27.599%;
+  }
+
+/*form page field and label style*/
+  form .page .field .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+  }
+  
+/*form page field and input style*/
+  form .page .field input{
+    height: 100%;
+    width: 80%;
+    border: 2.5px solid none;
+    border-radius: 0.5rem;
+    font-size: 19px;
+    color: black;
+  }
+
+  /*form page field and input type style*/
+  form .page .field input[type="text"]{
+    background : transparent;
+  }
+
+  form .page .field input[type="number"]{
+    background : transparent;
+  }
+
+  form .page .field textarea{
+    background : transparent;
+    border: 2.5px solid #21c5ce;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+
+
+/*form page field and select style*/
+  form .page .field select{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background : white;
+    border: 2.5px solid black;
+    border-radius: 0.5rem;
+    width: 80%;
+    cursor: pointer;
+  }
+  
+  /*form page field and select style*/
+  form .page .field select option{
+	color: black !important;
+  }
+
+  
+  .btns-field button{
+    height: calc(100% + 2.5px);
+    border: 12.5px solid rgba(10, 0.55, 0);
+    background: white !important;
+	box-shadow: 2px 2px 5px black;
+    border-radius: 5rem;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black !important;
+    cursor: pointer !important;
+    transition: all .32s ease-in-out;
+  }
+
+
+ button:hover i{
+    background: black !important;
+	color: white !important;
+    font-weight: 700;
+  }
+  
+  button:hover{
+    background: black !important;
+	color: white !important;
+    font-weight: 700;
+  }
+  
+
+  form .page .btns button{
+    margin-top: -20px!important;
+  }
+  form .page .btns button.prev{
+    margin-right: 3px;
+  }
+  form .page .btns button.next{
+    margin-left: 3px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***under construction*****/
+
+
+  /*.progress-bar style*/
+.progress-bar{
+    border: 2px solid #0b76af;
+	background: #0b76af;
+	box-shadow: 2px 2px 5px rgba(10%, 1%, 0%);
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    user-select: none;
+    margin-top: 2%;
+  }
+
+  
+/*.progress-bar step style*/
+ .progress-bar .step{
+    border: 2px solid none;
+    text-align: right;
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+  }
+
+ /*.progress-bar .step .c_container style*/
+  .progress-bar .step .c_container{
+    border: 2px solid none;
+    width: 180px;
+  }
+
+/*.progress-bar .step c_container p style*/
+ .progress-bar .step .c_container p{
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 8px;
+    margin-right: 18px;
+  }
+   .progress-bar .step p.active{
+    color: white;
+  }
+
+  /*.progress-bar .step .c_container p span style*/
+  .progress-bar .step .c_container p span{
+    font-size: xx-small;
+  }
+
+
+ /*.progress-bar .step .bullet style*/
+  .progress-bar .step .bullet{
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    background: black;
+  }
+
+   /*.progress-bar .step .dot style*/
+   .progress-bar .step .dot{
+    height: 10px;
+    width: 10px;
+    border: 2px solid #1f2061;
+    border-radius: 50%;
+    background:  transparent;
+    position: absolute;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    margin-right: 14.8%;
+    margin-top: 0.5%;
+  }
+
+  .progress-bar .step .dot.active{
+    border-color: #21c5ce;
+    background: #21c5ce;
+  }
+
+  .progress-bar .step .bullet.active{
+    border-color: black;
+    background: white;
+  }
+
+  .progress-bar .step .dot span{
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+  .progress-bar .step .bullet span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  .progress-bar .step .dot.active span{
+    display: none;
+  }
+
+  .progress-bar .step .bullet span i{
+    color: white !important;
+  }
+  
+  .progress-bar .step .bullet.active span i{
+    color: black !important;
+  }
+
+ 
+  
+
+  .progress-bar .step .bullet:before,
+  .progress-bar .step .bullet:after{
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 14px;
+    height: 52px;
+    width: 3px;
+    background: black;
+  }
+
+  .progress-bar .step .bullet.active:after{
+    background: white;
+    transform: scaleY(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleY(1);
+    }
+  }
+  .progress-bar .step:last-child .bullet:before,
+  .progress-bar .step:last-child .bullet:after{
+    display: none;
+  }
+  
+    .progress-bar .step #c-first-blog-p{
+    color: white !important;
+  }
+  
+  
+  .progress-bar .step p.active{
+    color: white;
+    transition: 0.2s linear;
+  }
+
+
+ 
+   
+
+
+  /*add ons**/
+
+  .field-line {
+    border : 1px solid #1f2061;
+    border-radius: 2em;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    width: 90%;
+  }
+
+  .slide-page-header {
+    border: 2px solid none;
+    line-height: 2.8em;
+
+  }
+
+  .media-query-slide-page-header {
+    display: none;
+  }
+
+
+
+
+
+
+  @media(max-width: 600px) {
+
+    .step {
+        border: 2px solid none;
+        width: fit-content !important;
+    }
+    
+    /*style the dot*/
+    .dot {
+        display: none;
+    }
+
+     /*.progress-bar .step .bullet style*/
+    .progress-bar .step .bullet{
+        height: 25px;
+        width: 25px;
+        border: 2px solid none;
+        border-radius: 50%;
+        position: relative;
+        transition: 0.2s;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        background: #47497a;
+
+    }
+
+    /*.container .progress-bar .step c_container p style*/
+   .container .progress-bar .step .c_container p{
+    margin-right: 60px;
+    }
+
+  /*container form-outer style*/
+     .form-outer{
+        width: 90%;
+    }
+
+    /*container multiskill-level-form style*/
+    .container .multiskill-level-form{
+        display: block;
+    }
+
+     /*container .progress-bar style*/
+    .container .progress-bar{
+        flex-direction: row;
+    }
+
+    .media-query-slide-page-header {
+        display: flex;
+      }
+
+ /*container .progress-bar style*/
+ .container .progress-bar{
+    display: none;
+  }
+
+  
+ /*container .progress-bar step style*/
+  .container .progress-bar .step{
+    display: none;
+  }
+
+ /*.progress-bar .step .c_container style*/
+  .progress-bar .step .c_container{
+    display: none;
+  }
+
+   /*.container .progress-bar .step c_container p style*/
+  .progress-bar .step .c_container p{
+    display: none;
+  }
+
+  form .page .btns-field button{
+    width: 55%;
+  }
+
+  .media-query-slide-page-header .c_container p {
+    font-size: x-large;
+  }
+
+  }
