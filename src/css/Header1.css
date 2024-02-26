@@ -46,24 +46,38 @@ img {
   z-index: 7;
 }
 ul.main-menu {
+  border: 2px solid none;
   display: inline-flex;
   list-style: none;
   margin: 0px auto 0;
   padding: 0;
   float: right;
   z-index: 7;
+  width: 100% !important;
 }
 ul.main-menu>li.menu-item:first-child {
   padding-left: 0;
   margin-left: 0;
 }
 .menu-item {
-  line-height: 23px;
+  border: 2px solid none !important;
+  width: 100% !important;
+  height: 1.8cm !important;
 }
+
+.menu-item .navlink {
+  border: 2px solid none !important;
+  width: 100% !important;
+  top: -15%;
+}
+
+
+
 li {
   list-style-type: none;
 }
 .menu-item a {
+  border: 2px solid none;
   font-size: 20px;
   font-weight: 600;
   line-height: 40px;
@@ -75,13 +89,21 @@ li {
   cursor: pointer;
 }
 .header__middle__logo{
-  border: 2px solid violet;
-  width: 20% !important;
+  border: 2px solid none;
+  width: 15% !important;
 }
+
+.header__middle__logo img {
+  border: 2px solid none;
+  width: 100% !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  transform: translateY(20%);
+}
+
 .header__middle__menus {
-  border: 2px solid red;
-  width: 70% !important;
-  float: left;
+  border: 2px solid none;
+  width: 80% !important;
 }
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;
@@ -89,11 +111,11 @@ li {
 .header__middle__search {
   width: 7%;
   display: inline-block;
-  float: right;
   padding: 36px 3px 27px 3px;
   border-left: 1px solid lavender;
 }
 .header__middle {
+  border: 2px solid none;
   display: flex;
   width: 100%;
   float: left;
@@ -103,12 +125,12 @@ li {
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
+  height: 2cm;
 }
 .header__middle__logo > a > h1 {
   color: #07a8ff;
   text-transform: uppercase;
   text-decoration: none;
-  margin-top: 33px;
 }
 /* .active{
   color: #ff1800!important;
@@ -157,6 +179,7 @@ li {
   }
 }
 .menu-item .sub__menus  a {
+  border: 2px solid none !important;
   padding: 7px 0 0px 0;
   margin: 7px 27px;
 }
@@ -197,6 +220,7 @@ li {
   background-size: cover;
   color: white !important;
   transition: 0.5s ease;
+  border: 2px solid pink !important
 }
 
 .main-nav .menu-item:hover > a {
@@ -243,6 +267,7 @@ li {
 }
 
 ul.main-menu {
+  border: 2px solid none !important;
   margin-top: 20vh;
   width: 80%; 
   position: relative;
@@ -289,3 +314,21 @@ ul.main-menu {
 
 }
 
+
+
+@media (max-width: 1000px) {
+  .header__middle {
+    height: 2cm !important;
+  }
+
+  .menu-item {
+    border: 2px solid none !important;
+    width: 100% !important;
+  }
+  
+}
+
+
+.container {
+  border: 2px solid none !important;
+}

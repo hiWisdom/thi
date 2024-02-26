@@ -13,7 +13,7 @@ const Navbarmenu = () => {
     const toggleClass = () => {
       setisMenu(isMenu === false ? true : false);
       setResponsiveclose(isResponsiveclose === false ? true : false);
-  };
+    };
 
     let boxClass = ["main-menu menu-right menuq1"];
 
@@ -58,7 +58,7 @@ const Navbarmenu = () => {
 
                 <div className="header__middle__menus">
 
-                    <nav className="main-nav " >
+                    <nav className="main-nav">
 
                     {/* Responsive Menu Button */}
                     {isResponsiveclose === true ? <> 
@@ -73,20 +73,25 @@ const Navbarmenu = () => {
                         
                     <Searchbar/>
                         
-                    <li  className="menu-item" >
-                        <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
-                    </li>
 
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
-
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Shop <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link className="navlink" to="#"> About us  <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Online Shop </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Offline Shop </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Privacy Policy </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Terms of Use </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Check your BMI </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Book doctor appoinment </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Find a doctor </NavLink> </li>
                         </ul>
                     </li>
 
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
+
+                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/About`}> Contact us </NavLink> </li>
+
+                    <li  className="menu-item" >
+                        <NavLink className="navlink" exact activeClassName='is-active' onClick={toggleClass} to={`/`}>Check BMI</NavLink> 
+                    </li>
+
+                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Find a doctor </NavLink> </li>
 
 
                     </ul>
