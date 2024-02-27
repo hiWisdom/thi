@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import Services from "../components/Services";
 import BasicSlider from '../components/BasicSlider';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 //homepage
 export const Home = () => {
@@ -160,7 +161,11 @@ export const Home = () => {
 
             <div className="c_find_doctor_container">
 
-                <div className="c_find_a_doctor_icon"><i className="fa-solid fa-notes-medical"></i></div> 
+                <div className="c_find_a_doctor_icon">
+                    
+                    {/* <i className="fa-solid fa-notes-medical"></i> */}
+                    <FontAwesomeIcon icon="fa-solid fa-notes-medical" />
+                    </div> 
 
                 <div className="c_find_a_doctor_title">
                     <div>
