@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/thi/static/css/main.dabeb763.css",
-    "main.js": "/thi/static/js/main.56ad1178.js",
+    "main.css": "/thi/static/css/main.f58f4e1b.css",
+    "main.js": "/thi/static/js/main.6c24d534.js",
     "static/media/Dr.-Olutoyin-Asaolu-e1598141460833.png": "/thi/static/media/Dr.-Olutoyin-Asaolu-e1598141460833.c7cb7b51cca09c0210e0.png",
     "static/media/images.jpeg-6.jpg": "/thi/static/media/images.jpeg-6.3cab622aafc939a8253c.jpg",
     "static/media/revicons.eot": "/thi/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/thi/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/thi/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/thi/index.html",
-    "main.dabeb763.css.map": "/thi/static/css/main.dabeb763.css.map",
-    "main.56ad1178.js.map": "/thi/static/js/main.56ad1178.js.map"
+    "main.f58f4e1b.css.map": "/thi/static/css/main.f58f4e1b.css.map",
+    "main.6c24d534.js.map": "/thi/static/js/main.6c24d534.js.map"
   },
   "entrypoints": [
-    "static/css/main.dabeb763.css",
-    "static/js/main.56ad1178.js"
+    "static/css/main.f58f4e1b.css",
+    "static/js/main.6c24d534.js"
   ]
 }
