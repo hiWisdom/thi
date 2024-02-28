@@ -105,13 +105,12 @@ main {
  
 
 .c_content {
-    border: none;
+    border: 3px solid none;
     padding: 0;
     height: auto  ;
     display: flex;
     flex-direction: column;
     padding: 1.5%;
-    margin: 1.5% 25% 0.5% 25%;
     background: white;
 }
 

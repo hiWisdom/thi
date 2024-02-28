@@ -1,5 +1,7 @@
 
 
+import "../css/pages_css/C_general_pages_styling.css";
+
 //BMI page
 export const BMI = () => {
 
@@ -110,7 +112,7 @@ export const BMI = () => {
 
 </div>
 
-<a id="c_back_to_top" className="c_back_to_top" href="#"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
+<a id="c_back_to_top" className="c_back_to_top" href="https://www.timobhealthinternational.org"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
 
 
 

@@ -59,11 +59,13 @@ import "./css/FooterslideShow1.css";
 
 import "./css/Footer.css";
 
+import "./css/pages_css/Pages_main.css";
+
 import "./css/pages_css/C_contact.css";
 
 import "./css/pages_css/Pages_main.css";
 
-import "./css/pages_css/C_general_pages_styling.css";
+
 
 
 

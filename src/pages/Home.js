@@ -50,7 +50,7 @@ export const Home = () => {
 
 
                                     <div className="c_contact_action_items" id="c_contact_action_items2">
-                                        <a className="c_contact_action_items_detail" href="https://wa.me/+23408035768694?text=hi" target="_blank">Whatsapp</a>
+                                        <a className="c_contact_action_items_detail" href="https://wa.me/+23408035768694?text=hi" target="_blank" rel="noreferrer">Whatsapp</a>
                                     </div>
 
                             </div>
@@ -304,7 +304,8 @@ export const Home = () => {
         <div className="c_appoinment_bmi_container">
 
             <div  className="c_appoinment_bmi c_appoinment_container">
-                <h3><b>T</b>rusted <b>B</b>y <b>M</b>ost <b>B</b>usiness <b>A</b>cross <b>N</b>igeria.</h3>
+
+            <h3><b>H</b>ealth <b>C</b>enters <b>C</b>nsulting <b>F</b>or:</h3>
 
 
                 <div className="c">
@@ -319,7 +320,7 @@ export const Home = () => {
                             
                             {/* img box */}
                             <div className="slide-img">
-                                <img className="images-in-items" id="slide-img-1"/>
+                                <img className="images-in-items" id="slide-img-1" alt="imageofzoe"/>
                             </div>
                             
                             </div>
@@ -334,7 +335,7 @@ export const Home = () => {
                             
                             {/* img box */}
                             <div className="slide-img">
-                                <img className="images-in-items" id="slide-img-2"/>
+                                <img className="images-in-items" id="slide-img-2" alt="imageofboo"/>
                             </div>
                             
                             </div>
@@ -349,7 +350,7 @@ export const Home = () => {
                             
                             {/* img box */}
                             <div className="slide-img">
-                                <img className="images-in-items" id="slide-img-3"/>
+                                <img className="images-in-items" id="slide-img-3" alt="imageofk"/>
                             </div>
                             
                             </div>
@@ -377,7 +378,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"  alt="imageofp"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -390,7 +391,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="imageofz"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -403,7 +404,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="imageofs"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -416,7 +417,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://k2k4h6a6.stackpathcdn.com/wp-content/uploads/2022/01/logo.png" style={{width: "100%"}}/>
+                                <img className="c_feedback_carousel__item-image" src="https://k2k4h6a6.stackpathcdn.com/wp-content/uploads/2022/01/logo.png" style={{width: "100%"}} alt="imageofq"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -429,7 +430,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="imageofw"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -442,7 +443,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="imageofe"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -455,7 +456,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="imageofr"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -468,7 +469,7 @@ export const Home = () => {
                         <div className="c_feedback_carousel__item">
                     
                             <div className="c_feedback_carousel__item-head">
-                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg"/>
+                                <img className="c_feedback_carousel__item-image" src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="imageoft"/>
                             </div>
                             
                             <div className="c_feedback_carousel__item-body">
@@ -493,7 +494,7 @@ export const Home = () => {
     </div>
 
 
-    <a id="c_back_to_top" className="c_back_to_top" href="#"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
+    <a id="c_back_to_top" className="c_back_to_top"  href="https://www.timobhealthinternational.org"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
 
     
     

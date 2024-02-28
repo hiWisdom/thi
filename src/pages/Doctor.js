@@ -394,7 +394,7 @@ export const Doctor = () => {
 
 
 
-<a id="c_back_to_top" className="c_back_to_top" href="#"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
+<a id="c_back_to_top" className="c_back_to_top" href="https://www.timobhealthinternational.org"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
 
 
 

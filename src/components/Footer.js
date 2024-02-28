@@ -1,7 +1,7 @@
 
 
+import { Link } from "react-router-dom";
 
-// import { Link } from "react-router-dom";
 
 export const Footer = () => {
 
@@ -36,9 +36,9 @@ export const Footer = () => {
                     <p style={{color: "white", fontWeight: "700"}}>We are Inventing Brilliant Gastro Healthcare Initiatives</p>
 
                     <ul>
-                        <li> <a href="#" style={{color: 'white'}}>the Hepatitis Corner</a></li>
-                        <li> <a href="#" style={{color: 'white'}}>the Liver Healthcare Center</a></li>
-                        <li> <a href="#" style={{color: 'white'}}>the Hepatitis Corner</a></li>
+                        <li> <a href="https://www.timobhealthinternational.org" style={{color: 'white'}}>the Hepatitis Corner</a></li>
+                        <li> <a href="https://www.timobhealthinternational.org" style={{color: 'white'}}>the Liver Healthcare Center</a></li>
+                        <li> <a href="https://www.timobhealthinternational.org" style={{color: 'white'}}>the Hepatitis Corner</a></li>
                     </ul>
 
             </div>
@@ -75,7 +75,7 @@ export const Footer = () => {
                                                     <p>#Category</p>
                                                 </div>
 
-                                                <img id="c_about_what_we_do_IMG_1" src="https://patient-staging.gastro.org/wp-content/uploads/2021/07/Patient-Ed-2019-Colonoscopy.jpg"style={{border: "0px solid gold", height: "390px"}}/>
+                                                <img id="c_about_what_we_do_IMG_1" src="https://patient-staging.gastro.org/wp-content/uploads/2021/07/Patient-Ed-2019-Colonoscopy.jpg"style={{border: "0px solid gold", height: "390px"}} alt="imageofko"/>
                                             </div>
 
                                             <div style={{fontSize: "medium", fontWeight: "900"}}>
@@ -199,7 +199,7 @@ export const Footer = () => {
                             <div className="HEALTH_JOURNEY_panel">
 
                                 <div>
-                                        <img src="<?= ROOT_URL ?>pictures/testing picture/Dr.-Olutoyin-Asaolu-e1598141460833.png"/>
+                                        <img src="<?= ROOT_URL ?>pictures/testing picture/Dr.-Olutoyin-Asaolu-e1598141460833.png" alt="imageofvo"/>
                                 </div>
 
                                 <h3>Dr. Olutoyin Asaolu</h3>
@@ -297,7 +297,7 @@ export const Footer = () => {
                         
 
                             <section className="c_social_media_link_section">
-                            <a className="c_footer_navbar_text c_footer_social_links" href="https://wa.me/+23408035768694?text=hi" target="_blank" ><i className="fa-brands fa-whatsapp c_fa_social_icons"></i></a> 
+                            <a className="c_footer_navbar_text c_footer_social_links" href="https://wa.me/+23408035768694?text=hi" target="_blank" rel="noreferrer" ><i className="fa-brands fa-whatsapp c_fa_social_icons"></i></a> 
                             </section>
 
                             
@@ -329,7 +329,9 @@ export const Footer = () => {
                     <ul>
                     <h2 className="footer_set_header">About</h2>
 
-                    <li><a href="<?= ROOT_URL?>pages/thi_Privacy_preferences">Privacy Policy</a></li>
+                    <li to={`/About`} style={{cursor: "pointer"}}> About us </li>
+
+                    {/* <Link to="/contact"> Contact us </Link> */}
 
                     <li><a href="<?= ROOT_URL?>pages/thi_Personal_data_protection_policy">Terms of Use</a></li>
 
@@ -340,6 +342,8 @@ export const Footer = () => {
                     </ul>
 
                 </div>
+
+                
 
                 <div className="footer_sets footer_set" data-aos="zoom-in">
 
@@ -413,6 +417,8 @@ export const Footer = () => {
             </div>
 
         </div>
+
+        
 
     </footer>
 

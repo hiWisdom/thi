@@ -413,8 +413,8 @@ color: white;
 }
 
 /*footer_set_1_container div ul li style*/
-.footer_set_1_container .footer_sets ul li a{
-    color: white;
+.footer_set_1_container .footer_sets ul li .a{
+    color: white !important;
     font-size: small;
 }
 
@@ -524,14 +524,7 @@ color: white;
     width: fit-content;
 }
 
-.footer_set_header li {
-    font-size: small;
-}
 
-
-.footer_set_header li a{
-    font-size: small;
-}
 
 .c_about_what_we_do_IMG img{
     border: 2px solid none;
