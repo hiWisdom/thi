@@ -18,13 +18,13 @@ export const Header = () => {
       
                   <i className="uil uil-times nav-close-btn"></i>
 
-                  <Link to="/About" className="nav-link"> <i className="fa-solid fa-book nav-icons"></i> About us </Link>
+                  <Link to="/Doctor" className="nav-link"> <i className="fa-solid fa-book nav-icons"></i> About us </Link>
 
                   <Link to="/Contact" className="nav-link"> <i className="fa-regular fa-address-book"></i> Contact us </Link>
 
                   <Link to="/Check-Your-Body-Mass-Index" className="nav-link"> <i className="fa-solid fa-child-reaching"></i> Check BMI </Link>
                   
-                  <Link to="/Find-A-Doctor" className="nav-link"> <i className="fa-solid fa-user-doctor"></i> Find a doctor </Link>
+                  <Link to="/Doctor" className="nav-link"> <i className="fa-solid fa-user-doctor"></i> Find a doctor </Link>
                   
                   {/* <a href="<?= ROOT_URL ?>pages/request_appoinment.php"><i className="uil uil-document-layout-left"></i>Request appoinment</a> */}
                   

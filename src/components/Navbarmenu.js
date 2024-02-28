@@ -74,24 +74,25 @@ const Navbarmenu = () => {
                     <Searchbar/>
                         
 
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link className="navlink" to="#"> About us  <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link className="navlink" to="#"> About  <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Privacy Policy </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Terms of Use </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Check your BMI </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Book doctor appoinment </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Find a doctor </NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/About`}> About us</NavLink> </li>
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Privacypolicy`}> Privacy Policy </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Termsofuse`}> Terms of Use </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/BMI`}> Check your BMI </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Book doctor appoinment </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Find a doctor </NavLink> </li>
                         </ul>
                     </li>
 
 
-                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/About`}> Contact us </NavLink> </li>
+                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact us </NavLink> </li>
 
                     <li  className="menu-item" >
-                        <NavLink className="navlink" exact activeClassName='is-active' onClick={toggleClass} to={`/`}>Check BMI</NavLink> 
+                        <NavLink className="navlink" exact activeClassName='is-active' onClick={toggleClass} to={`/BMI`}>Check BMI</NavLink> 
                     </li>
 
-                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Find a doctor </NavLink> </li>
+                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Find a doctor </NavLink> </li>
 
 
                     </ul>

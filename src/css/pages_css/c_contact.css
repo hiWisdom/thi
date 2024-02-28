@@ -4,7 +4,7 @@
 
 .c_contact_image {
     border: 2px solid none;
-    background-image: url("../pictures/testing picture/background_images/Call-Center-Management-1.png");
+    /* background-image: url("../pictures/testing picture/background_images/Call-Center-Management-1.png"); */
     width: 100%;
     height: 50vh; 
 }

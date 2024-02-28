@@ -59,6 +59,12 @@ import "./css/FooterslideShow1.css";
 
 import "./css/Footer.css";
 
+import "./css/pages_css/C_contact.css";
+
+import "./css/pages_css/Pages_main.css";
+
+import "./css/pages_css/C_general_pages_styling.css";
+
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -70,6 +76,10 @@ import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
+import { BMI } from "./pages/BMI";
+import { Doctor } from "./pages/Doctor";
+import { Termsofuse } from "./pages/Termsofuse";
+import { Privacypolicy } from "./pages/Privacypolicy";
 import Navbarmenu from './components/Navbarmenu';
 
 function App() {
@@ -90,6 +100,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/bmi" element={<BMI />} />
+          <Route path="/doctor" element={<Doctor />} />
+          <Route path="/termsofuse" element={<Termsofuse />} />
+          <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="*" element={<h1> PAGE NOT FOUND</h1>} />
         </Routes>
 
