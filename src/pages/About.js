@@ -1,5 +1,7 @@
 
 
+import Services from '../components/Services';
+
 
 //About page
 export const About = () => {
@@ -31,7 +33,7 @@ export const About = () => {
 
     <h2>What we do</h2>
 
-    <div class="c_about_what_we_do_con c_about_page_design">
+    {/* <div class="c_about_what_we_do_con c_about_page_design">
 
         <ul id="autoWidth" class="cs-hidden">
 
@@ -270,9 +272,12 @@ export const About = () => {
             
         </ul>
 
-    </div>
+    </div> */}
     
 
+    {/* slide show */}
+
+    <Services />
 
 
 

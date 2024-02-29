@@ -69,7 +69,7 @@ import "./css/pages_css/Pages_main.css";
 
 
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 
 // import website componenet
@@ -83,6 +83,7 @@ import { Doctor } from "./pages/Doctor";
 import { Termsofuse } from "./pages/Termsofuse";
 import { Privacypolicy } from "./pages/Privacypolicy";
 import Navbarmenu from './components/Navbarmenu';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -108,13 +109,22 @@ function App() {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="*" element={<h1> PAGE NOT FOUND</h1>} />
         </Routes>
+        
+        {/**website footer
+         * 
+         * 
+         * 
+
+         
+         */}
+        <Footer/>
 
       </Router>
 
 
 
       {/**website footer */}
-      <Footer/>
+
 
     </div>
   );

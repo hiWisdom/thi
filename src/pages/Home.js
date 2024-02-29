@@ -1,6 +1,6 @@
 //import react LINK
-import { Link } from "react-router-dom";
-import Services from "../components/Services";
+import { Link } from 'react-router-dom';
+import Services from '../components/Services';
 import BasicSlider from '../components/BasicSlider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

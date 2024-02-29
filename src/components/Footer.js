@@ -329,15 +329,14 @@ export const Footer = () => {
                     <ul>
                     <h2 className="footer_set_header">About</h2>
 
-                    <li to={`/About`} style={{cursor: "pointer"}}> About us </li>
+                    <li> <Link to="/about"> About us </Link></li>
+                    
+                    <li> <Link to="/contact"> Contact us </Link></li>
+                    
+                    <li> <Link to="/Termsofuse"> Terms of Use </Link></li>
+                                        
+                    <li> <Link to="/Privacypolicy"> Privacy Policy </Link></li>
 
-                    {/* <Link to="/contact"> Contact us </Link> */}
-
-                    <li><a href="<?= ROOT_URL?>pages/thi_Personal_data_protection_policy">Terms of Use</a></li>
-
-                    <li><a href="<?= ROOT_URL?>pages/thi_contact">Contact us</a></li>
-
-                    <li><a href="<?= ROOT_URL?>pages/thi_about">About us</a></li>
 
                     </ul>
 
@@ -351,14 +350,11 @@ export const Footer = () => {
 
                         <h2 className="footer_set_header">Services</h2>                        
                         
-                        <li><a href="<?= ROOT_URL?>pages/checkBMI">Check your BMI</a></li>
 
-                        {/* <!-- <li><a>Health Tips</a></li> --> */}
+                    <li> <Link to="/BMI"> Check your BMI </Link></li>
+                    
+                    <li> <Link to="/Doctor">Find a doctor </Link></li>
 
-                        <li><a href="<?= ROOT_URL?>pages/request_appoinment">Book doctor appoinment</a></li>
-
-                        
-                        {/* <!-- <li onclick="alert('Call +234 (0)8090196840 for more information.')"><a>Quick consult with a doctor</a></li> --> */}
 
                     </ul>
 
@@ -409,7 +405,7 @@ export const Footer = () => {
                 {/* <span style="color: white; font-size: small;"> &copy; <span className="date c_footer_navbar_text" id="date" style="color: white; font-size: small;"> </span> Timob Health International All right reserved</span> */}
 
                 
-                <p style={{color: 'white', fontSize: 'small'}}>copy right 2024 timob health international</p>
+                <p style={{color: 'white', fontSize: 'small'}}>Copy right reserved 2024 Timob Health International.</p>
 
 
                 </div>

@@ -80,7 +80,7 @@ const Navbarmenu = () => {
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Privacypolicy`}> Privacy Policy </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Termsofuse`}> Terms of Use </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/BMI`}> Check your BMI </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Book doctor appoinment </NavLink> </li>
+                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Book doctor appoinment </NavLink> </li> */}
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Find a doctor </NavLink> </li>
                         </ul>
                     </li>
