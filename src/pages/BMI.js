@@ -1,6 +1,9 @@
 
 
 import "../css/pages_css/C_general_pages_styling.css";
+import Bmi from '../components/BMI-App - Copy';
+
+// import Sidebar from '../components/Sidebar';
 
 //BMI page
 export const BMI = () => {
@@ -16,7 +19,7 @@ export const BMI = () => {
 
                         
 
-
+{/* <Sidebar /> */}
 
 
 <div className="c_page_title_background c_page_title_background_bmi"></div>
@@ -24,7 +27,29 @@ export const BMI = () => {
             
 <h1 className="find_doctor_Request_appoinment" data-aos="zoom-in-up">Check your Body Mass Index quickly for free .....<small>stay healthy and live long</small></h1>
 
-<div className="c_content">
+
+
+<Bmi/>
+
+        <div className="bmi-hint">
+            
+            
+            <h2>What your BMI means</h2>
+            <p>
+                To understand what your BMI means, it's useful to take a step back and understand what it's measuring and why it's measured.
+                
+                BMI is a calculation of your size that takes into account your height and weight. A number of years ago, I remember using charts that asked you to find your height along the left side and then slide your finger to the right to see your "ideal weight" from choices listed under small, medium, or large "frame" sizes.
+                
+                These charts came from actuarial statistics, calculations that life insurance companies use to determine your likelihood of reaching an advanced age based on data from thousands of people. These charts were cumbersome to use, and it was never clear how one was to decide a person's "frame size."
+                
+                BMI does something similar: it expresses the relationship between your height and weight as a single number that is not dependent on frame size. Although the origin of the BMI is over 200 years old, it is fairly new as a measure of health.
+            </p>
+
+        </div>
+
+    
+
+{/* <div className="c_content">
 
     <div className="c_content_title_header_container c_general_div">
 
@@ -110,7 +135,7 @@ export const BMI = () => {
 
 
 
-</div>
+</div> */}
 
 <a id="c_back_to_top" className="c_back_to_top" href="https://www.timobhealthinternational.org"><i className="fa fa-arrow-up c_back_to_top_icon"></i></a>
 

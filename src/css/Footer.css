@@ -441,7 +441,7 @@ color: white;
 }
 
 .footer_sets ul div li{
-    border: 2px solid none;
+    border: 2px solid red !important;
     margin: 1%;
     width: 150px;
     height: 20px
@@ -453,11 +453,13 @@ color: white;
     color: white !important;
     transition: all ease-in-out .2s;
     font-size: small !important;
+    text-decoration: none;
 }
 
 .footer_sets ul li a:hover{
     color: gold !important;
     text-decoration: underline white;
+    text-decoration: none;
 }
 
 .FaInstagram {
@@ -494,25 +496,23 @@ color: white;
 }
 
 
-.c_social_media_link_section{
+
+
+.singleCol {
     border: 2px solid none;
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-}
- 
-.c_social_media_link_section  i{
-    border: 2px solid none;
-    font-size: 28px;
-    color: white;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    transition: all .2s ease-in-out;
+    margin-top: 10%;
 }
 
-.c_social_media_link_section  i:hover{
-    color: gold;
+.social-media-icons-white a {
+    border: none 2px solid;
+    height: 100% !important;
+    background-color: white !important;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
 }
 
 

@@ -2,6 +2,8 @@
 
 import { Link } from "react-router-dom";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faFacebook, faInstagram, faLinkedin, faWhatsapp} from "@fortawesome/free-brands-svg-icons"
 
 export const Footer = () => {
 
@@ -12,9 +14,7 @@ export const Footer = () => {
     
     
     <footer className="footer">
-
-    Repairing footer, stay off, some function not working properly.
-        <div className="writing_animation_container">
+        <div className="writing_animation_container" data-aos="zoom-in-up" data-aos-duration="3000">
             
             <span className="writing-animation-text first_text">Our Communities</span>
 
@@ -31,14 +31,13 @@ export const Footer = () => {
 
 
 
-            <div className="main6_Title">
+            <div className="main6_Title" data-aos="fade-up" data-aos-duration="3000">
 
                     <p style={{color: "white", fontWeight: "700"}}>We are Inventing Brilliant Gastro Healthcare Initiatives</p>
 
                     <ul>
                         <li> <a href="https://www.timobhealthinternational.org" style={{color: 'white'}}>the Hepatitis Corner</a></li>
                         <li> <a href="https://www.timobhealthinternational.org" style={{color: 'white'}}>the Liver Healthcare Center</a></li>
-                        <li> <a href="https://www.timobhealthinternational.org" style={{color: 'white'}}>the Hepatitis Corner</a></li>
                     </ul>
 
             </div>
@@ -123,7 +122,7 @@ export const Footer = () => {
                         <div className="main6_box_content">
 
 
-                            <div className="c_main_0_A" id="c_main_0_A_B" data-aos="zoom-in-right">
+                            <div className="c_main_0_A" id="c_main_0_A_B" data-aos="zoom-in-right" data-aos-duration="3000">
 
 
                             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
@@ -235,7 +234,7 @@ export const Footer = () => {
 
         <div className="main_block main7">
 
-            <div className="main7-container" data-aos="zoom-in-left">
+            <div className="main7-container" data-aos="zoom-in-left" data-aos-duration="3000">
 
                 <div className="main7-container-1">
                     <h2>Subscribe to our newsletter</h2>
@@ -277,34 +276,33 @@ export const Footer = () => {
 
             <div>
 
-                <div className="footer_sets footer_set" data-aos="zoom-in">
+                <div className="footer_sets footer_set" data-aos="fade-up" data-aos-duration="3000">
                     <ul>
                     
                         <h2 className="footer_set_header" style={{marginBottom:'-10%'}}>Let's Chat</h2>
 
                         
                         <div className="c_social_media_link_section_container">
-                            <section className="c_social_media_link_section">
-                            <a className="c_footer_navbar_text c_footer_social_links" href="https://www.facebook.com/toyin.asaolu.1/"><i className="fa-brands fa-facebook-f c_fa_social_icons"></i> </a> 
-                            </section>
+                            <section className="singleCol social-media-icons-white">
+
+                            <a href="https://www.facebook.com/toyin.asaolu.1/" target="_blank" rel="noreferrer" title="Facebook" ><FontAwesomeIcon icon={faFacebook} /> </a> 
 
                             
-
-                            <section className="c_social_media_link_section">
-                            <a className="c_footer_navbar_text c_footer_social_links" href="https://www.instagram.com/hepatitiscorner/"><i className="fa-brands fa-instagram c_fa_social_icons"></i></a> 
-                            </section>
-
-                        
-
-                            <section className="c_social_media_link_section">
-                            <a className="c_footer_navbar_text c_footer_social_links" href="https://wa.me/+23408035768694?text=hi" target="_blank" rel="noreferrer" ><i className="fa-brands fa-whatsapp c_fa_social_icons"></i></a> 
-                            </section>
+                            <a href="https://www.instagram.com/hepatitiscorner/" target="_blank" rel="noreferrer" title="Instagram" ><FontAwesomeIcon icon={faInstagram} /> </a> 
 
                             
+                            <a  href="https://www.linkedin.com/in/toyin-asaolu-5608a668/?originalSubdomain=ng" target="_blank" rel="noreferrer" title="Linkedin" ><FontAwesomeIcon icon={faLinkedin} /> </a> 
+                            
+                            
+                            <a  href="https://wa.me/+23408035768694?text=hi" target="_blank" rel="noreferrer" title="Whatsapp" ><FontAwesomeIcon icon={faWhatsapp}className="color"/> </a> 
 
-                            <section className="c_social_media_link_section">
-                            <a className="c_footer_navbar_text c_footer_social_links" href="https://www.linkedin.com/in/toyin-asaolu-5608a668/?originalSubdomain=ng"><i className="fa-brands fa-linkedin-in c_fa_social_icons"></i></a> 
+
+
                             </section>
+
+
+
+                            
                                     
                         </div>
                         
@@ -324,7 +322,7 @@ export const Footer = () => {
                     </ul>
                 </div>            
                 
-                <div className="footer_sets footer_set" data-aos="zoom-in">
+                <div className="footer_sets footer_set" data-aos="fade-up" data-aos-duration="3000">
 
                     <ul>
                     <h2 className="footer_set_header">About</h2>
@@ -344,16 +342,15 @@ export const Footer = () => {
 
                 
 
-                <div className="footer_sets footer_set" data-aos="zoom-in">
+                <div className="footer_sets footer_set" data-aos="fade-up" data-aos-duration="3000">
 
                     <ul>
 
                         <h2 className="footer_set_header">Services</h2>                        
                         
-
-                    <li> <Link to="/BMI"> Check your BMI </Link></li>
-                    
-                    <li> <Link to="/Doctor">Find a doctor </Link></li>
+                        <li> <Link to="/BMI"> Check your BMI </Link></li>
+                        
+                        <li> <Link to="/Doctor">Find a doctor </Link></li>
 
 
                     </ul>
@@ -361,7 +358,7 @@ export const Footer = () => {
 
                 </div>
 
-                {/* <div className="footer_sets footer_set" data-aos="zoom-in">
+                {/* <div className="footer_sets footer_set" data-aos="fade-up">
                     <ul>
                     
                         <h2 className="footer_set_header">Quick links</h2>
@@ -396,7 +393,7 @@ export const Footer = () => {
             </div>
 
 
-            <div className="footer_signature" data-aos="zoom-in">
+            <div className="footer_signature" data-aos="fade-up" data-aos-duration="3000">
 
                 <div className="footer_div_1_set">           
                  {/* <img src="{logo}"/><br/> 

@@ -1,0 +1,146 @@
+.Bmi {
+  border: 2px solid none !important;
+  background-color: white;
+  text-align: left;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.Bmi-logo {
+  animation: Bmi-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Bmi-header {
+  border:  2px solid none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.bmi-logo-1 {
+  border: 2px solid none;
+  width: 110px;
+  height: 100px;
+}
+
+.bmi-text-container{
+ border: 2px solid none; 
+}
+
+.bmi-text-container h2{
+  border: 2px solid none;
+  font-style: italic; 
+ }
+
+.Bmi-form{
+  border:  2px solid none;
+  margin: 10px;
+  padding: 10px 50px;
+}
+
+label, .bmi_input{
+  display: block;
+  margin: 10px;
+}
+
+.bmi_input{
+  border:1px solid black;
+  padding: 10px 3px;
+  width: 80%;   
+}
+
+.bmi_input[type='submit']{
+  padding: 0px 20px;
+  border-radius: 5px;
+  background: #DDDDDD;
+  color: #000000;
+  border: 2px solid black;
+  cursor: pointer;
+  background-image: url('https://inamdarhospital.com/wp-content/uploads/2022/06/Gastroscopy-treatment-and-cost-in-pune.jpg') !important;
+  background-repeat:repeat !important ;
+  background-position:center !important;
+}
+
+@keyframes Bmi-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.bmi-result-output {
+  border: 2px solid none;
+  padding: 0% 2%;
+  border-radius: 5px;
+  background-color: black;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF7VPr01jdxWTV9fK-y3gD10Nomz4JT3_xLQ&usqp=CAU);
+}
+
+.bmi-result-output label{
+  border: 2px solid none;
+  font-weight: bolder !important;
+  color: white;
+}
+
+.bmi-hint {
+  border: 2px solid none;
+  width: 50%;
+  margin: auto;
+}
+
+/*media query**/
+
+@media(max-width: 800px) {
+  .Bmi-form{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .bmi-logo-1 {
+    border: 2px solid none;
+    width: 150px;
+    height: 70px;
+  }
+  
+  .bmi-text-container h2{
+    font-size: medium; 
+    font-style: normal;
+  }
+
+  .Bmi-header {
+    flex-direction:column;
+  }
+
+  .bmi-logo-1-container {
+    border: 2px solid none;
+    width: 45% !important;
+  }
+
+  .bmi-image-logo-1 {
+    border: 2px solid none;
+    height: 3.5cm;
+  }
+
+  .bmi-logo-2-container {
+    display: none;
+  }
+
+  .bmi-hint {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 0% 5%;
+  }
+
+  .bmi-hint h2{
+    text-align: left;
+    font-weight: bolder;
+  }
+
+  .bmi-hint p{
+    text-align: left;
+    line-height: 2em;
+  }
+}

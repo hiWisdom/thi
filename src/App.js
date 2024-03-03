@@ -65,6 +65,10 @@ import "./css/pages_css/C_contact.css";
 
 import "./css/pages_css/Pages_main.css";
 
+import "./css/BMI-App - Copy.css";
+
+import "./css/Sidebar- Copy.css";
+
 
 
 
@@ -74,6 +78,7 @@ import "./css/pages_css/Pages_main.css";
 
 // import website componenet
 // import { Header } from "./Header";
+import React, {useEffect} from "react";
 import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
@@ -84,8 +89,18 @@ import { Termsofuse } from "./pages/Termsofuse";
 import { Privacypolicy } from "./pages/Privacypolicy";
 import Navbarmenu from './components/Navbarmenu';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+import  '@fortawesome/react-fontawesome';
+import  "@fortawesome/free-brands-svg-icons"
 
 function App() {
+
+  useEffect(() => {
+    Aos.init();
+  }, [])
+
 
   return (
 

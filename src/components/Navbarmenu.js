@@ -2,7 +2,14 @@ import React,{useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 import Searchbar  from "./Searchbar";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {faFile, faAddressBook, faHeartPulse,faUsersMedical} from "@fortawesome/free-brands-svg-icons";
 
+import { faEnvelope, faHeartPulse, faLaptopMedical } from "@fortawesome/free-solid-svg-icons"
+
+// import {faHeart, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+// import {faHeart, faLinkedin} from "@fortawesome/free-regular-svg-icons";
+// import {faFile, faAddressBook, faHeartPulse,faUsersMedical} from "@fortawesome/free-solid-svg-icons";
 
 
 const Navbarmenu = () => {
@@ -86,13 +93,13 @@ const Navbarmenu = () => {
                     </li>
 
 
-                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact us </NavLink> </li>
+                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> <FontAwesomeIcon icon={faEnvelope}  className="nav-icons" />Contact us </NavLink> </li>
 
                     <li  className="menu-item" >
-                        <NavLink className="navlink" exact activeClassName='is-active' onClick={toggleClass} to={`/BMI`}>Check BMI</NavLink> 
+                        <NavLink className="navlink" exact activeClassName='is-active' onClick={toggleClass} to={`/BMI`}><FontAwesomeIcon icon={faHeartPulse} className="nav-icons" />  Check BMI</NavLink> 
                     </li>
 
-                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}> Find a doctor </NavLink> </li>
+                    <li className="menu-item " ><NavLink className="navlink" onClick={toggleClass} activeClassName='is-active' to={`/Doctor`}><FontAwesomeIcon icon={faLaptopMedical} className="nav-icons" /> Find a doctor </NavLink> </li>
 
 
                     </ul>

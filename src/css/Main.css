@@ -1060,11 +1060,11 @@ main {
  }
 
  .c_about_us_A  {
-  border: 2px solid none; 
+  border: 2px solid none !important; 
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;
+  margin-top: 4.9cm;
   border-radius: 1rem;
   background-image: url("https://static8.depositphotos.com/1518767/1033/i/450/depositphotos_10338160-stock-photo-smiling-female-doctor-looking-at.jpg");
   background-repeat: no-repeat;
@@ -1381,7 +1381,7 @@ main {
  justify-content: space-around;
 }
 
-.c_find_a_doctor_icon {
+.c_find_a_doctor_icon_container {
   border: 2px solid none;
 }
 
@@ -1493,11 +1493,11 @@ main {
 }
 
 
-.c_find_a_doctor_icon i {
+.c_find_a_doctor_icon_container .c_find_a_doctor_icon {
   border: 2px solid none;
   font-size: 105px;
   margin-top: 10%;
-  color: white;
+  color: white !important;
 }
 
 .c_contact_action_B #norms:hover{
@@ -2670,7 +2670,6 @@ search page styles
 
 
 
-
 @media screen and (max-width: 1250px) {
 
     .navbar-details {
@@ -2744,6 +2743,7 @@ search page styles
     /** {*/
     /*    font-size: small;*/
     /*}*/
+
 
     .c_contact_action_A {
       width: auto !important;
@@ -3251,7 +3251,7 @@ search page styles
     flex-direction: column;
    }
 
-   .c_find_a_doctor_icon {
+   .c_find_a_doctor_icon_container {
     margin-left:auto;
     margin-right:auto;
    }
